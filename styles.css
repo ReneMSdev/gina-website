@@ -102,7 +102,7 @@
 
 /* About Image */
 .about-img {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 @media (min-width: 768px) {
