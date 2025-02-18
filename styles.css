@@ -77,3 +77,13 @@
 }
 
 /* -------------------------------------- */
+
+/* Hero Image */
+#hero {
+  background: url('assets/img/hero.jpg');
+  background-size: cover;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+}
