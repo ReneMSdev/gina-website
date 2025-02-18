@@ -3,6 +3,11 @@
   color: #407088 !important;
 }
 
+/* Consultation Button */
+.schedule {
+  color: #132743;
+}
+
 /* Custom Menu Toggle Button */
 /* -------------------------------------- */
 .navbar-toggler {
@@ -93,4 +98,28 @@
     background: url('assets/img/hero-mobile.jpg') center/cover no-repeat;
     height: 60vh;
   }
+}
+
+/* About Image */
+.about-img {
+  max-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .about-img {
+    max-width: 350px;
+  }
+}
+
+/* Badge Colors */
+.badge1 {
+  background: #ffb5b5;
+}
+
+.badge2 {
+  background: #00bbf0;
+}
+
+.badge3 {
+  background: #fdb44b;
 }
