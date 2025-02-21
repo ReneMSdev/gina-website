@@ -123,3 +123,14 @@
 .badge3 {
   background: #fdb44b;
 }
+
+/* Service Cards */
+.service-card {
+  background: white;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
