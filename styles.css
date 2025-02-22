@@ -10,6 +10,7 @@ html {
 /* Consultation Button */
 .schedule {
   color: #132743;
+  width: 350px;
 }
 
 /* Custom Menu Toggle Button */
@@ -149,11 +150,20 @@ html {
 /* Carousel */
 
 .carousel-item {
-  transition: transform 1.2s ease-in-out !important; /* Slower animation */
+  /* transition: transform 1.2s ease-in-out !important; Slower animation */
 }
 
 @media (max-width: 768px) {
   .carousel-item {
-    transition: transform 0.8s ease-in-out !important;
+    /* transition: transform 0.8s ease-in-out !important; */
   }
+}
+
+/* Submit Button */
+.submit-button {
+  background: #fdb44b;
+}
+
+.submit-button:hover {
+  background: #f9b75b;
 }
