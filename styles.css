@@ -3,6 +3,18 @@
   color: #407088 !important;
 }
 
+header {
+  height: 70px;
+}
+
+.navbar {
+  height: 100%;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
 /* Consultation Button */
 .schedule {
   color: #132743;
@@ -111,7 +123,7 @@
   }
 }
 
-/* Badge Colors */
+/* Badges */
 .badge1 {
   background: #ffb5b5;
 }
@@ -122,6 +134,13 @@
 
 .badge3 {
   background: #fdb44b;
+}
+
+@media (max-width: 768px) {
+  .credentials-container {
+    max-width: 70vw; /* shortens badge width on mobile screens */
+    margin: 0 auto;
+  }
 }
 
 /* Service Cards */
@@ -138,5 +157,11 @@
 /* Carousel */
 
 .carousel-item {
-  transition: transform 1.5s ease-in-out !important; /* Slower animation */
+  transition: transform 1.2s ease-in-out !important; /* Slower animation */
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    transition: transform 0.8s ease-in-out !important;
+  }
 }
