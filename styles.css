@@ -167,3 +167,8 @@ html {
 .submit-button:hover {
   background: #f9b75b;
 }
+
+/* Footer */
+footer {
+  background-color: #132743;
+}
