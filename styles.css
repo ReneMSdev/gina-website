@@ -3,16 +3,8 @@
   color: #407088 !important;
 }
 
-header {
-  height: 70px;
-}
-
-.navbar {
-  height: 100%;
-}
-
 html {
-  scroll-padding-top: 70px;
+  scroll-padding-top: 60px;
 }
 
 /* Consultation Button */
