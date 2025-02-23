@@ -16,6 +16,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://assets.calendly.com/assets/external/widget.css"
+    />
 
     <!-- Custom CSS -->
     <link
@@ -112,8 +116,9 @@
                 Transform your mindset, achieve your goals, and create the life you deserve.
               </p>
               <a
-                href="https://calendly.com/dummy-link"
+                href=""
                 class="schedule btn btn-lg btn-info fw-bold mt-3 shadow"
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rene-salomone/30min'});return false;"
                 >Schedule a Consultation Call</a
               >
             </div>
@@ -222,8 +227,9 @@
         </div>
         <div class="d-flex justify-content-center pb-5">
           <a
-            href="https://calendly.com/dummy-link"
-            class="schedule btn btn-lg btn-info fw-bold mt-3"
+            href=""
+            class="schedule btn btn-lg btn-info fw-bold mt-3 shadow"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rene-salomone/30min'});return false;"
             >Schedule a Consultation Call</a
           >
         </div>
@@ -345,8 +351,9 @@
           </p>
           <div class="d-flex justify-content-center mb-5">
             <a
-              href="https://calendly.com/dummy-link"
-              class="schedule btn btn-lg btn-info fw-bold mt-3"
+              href=""
+              class="schedule btn btn-lg btn-info fw-bold mt-3 shadow"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rene-salomone/30min'});return false;"
               >Schedule a Consultation Call</a
             >
           </div>
@@ -454,8 +461,14 @@
       </div>
     </footer>
 
-    <!-- Curtom JS -->
+    <!-- Custom JS -->
     <script src="/script.js"></script>
+    <!-- Calendly Script -->
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
     <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
