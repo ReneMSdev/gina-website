@@ -136,6 +136,23 @@ html {
   }
 }
 
+/* Testionials */
+#testimonials {
+  position: relative;
+}
+
+#testimonials::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('assets/img/testimonials-bg.jpg') no-repeat center center/cover;
+  opacity: 0.2;
+  z-index: -1;
+}
+
 /* Service Cards */
 .service-card {
   background: white;
