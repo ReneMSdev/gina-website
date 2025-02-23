@@ -17,20 +17,23 @@ document.addEventListener('DOMContentLoaded', () => {
         // Show Toastify success message
         Toastify({
           text: 'Message sent successfully!',
-          duration: 3000,
+          duration: 5000,
           gravity: 'top',
           position: 'center',
           backgroundColor: '#28a745',
           stopOnFocus: true,
+          close: true,
         }).showToast()
       })
       .catch(() => {
+        // Show Toastify error message
         Toastify({
           text: 'Something went wrong.',
           duration: 3000,
           gravity: 'top',
           position: 'center',
           backgroundColor: '#dc3545',
+          close: true,
         }).showToast()
       })
   })
