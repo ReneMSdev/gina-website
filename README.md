@@ -1,3 +1,5 @@
+
+![gina1](https://github.com/user-attachments/assets/4c2ecabf-5eeb-4aae-a1f4-cb66343bbede)
 # Gina Phillips Coaching Website 
 
 This is a modern, responsive static website built for a client who is a professional life coach specializing in burnout recovery, mindset mastery, and ADHD support. 
