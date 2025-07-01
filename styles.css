@@ -98,6 +98,12 @@ html {
   display: flex;
 }
 
+h1,
+h2,
+h3 {
+  color: #0c4a6e;
+}
+
 @media (max-width: 767px) {
   #hero {
     background: url('assets/img/hero-mobile.jpg') center/cover no-repeat;
